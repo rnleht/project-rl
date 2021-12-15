@@ -1,0 +1,352 @@
+0.7471 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+7.0077 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1440, 900]. Using actual size
+8.2783 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fcc7b0c1240>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fcc7bc9a128>, multiSample=False, name='window1', numSamples=2, pos=[360.0, 225.0], screen=0, size=array([2880, 1800]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.2787 	EXP 	window1: mouseVisible = True
+8.2788 	EXP 	window1: recordFrameIntervals = False
+8.3771 	EXP 	window1: recordFrameIntervals = True
+8.5425 	WARNING 	t of last frame was 23.88ms (=1/41)
+8.5597 	WARNING 	t of last frame was 17.24ms (=1/57)
+8.6087 	WARNING 	t of last frame was 23.40ms (=1/42)
+8.6263 	WARNING 	t of last frame was 17.67ms (=1/56)
+8.6613 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+9.4283 	WARNING 	Couldn't measure a consistent frame rate.
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+10.2523 	EXP 	Created Instruction_image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='Instruction_image.png', interpolate=True, mask=None, maskParams=None, name='Instruction_image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1214.,  612.]), texRes=128.0, units='pix', win=Window(...))
+10.3873 	EXP 	Created Warning_signal_1 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Warning_signal_1', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+10.3983 	EXP 	Created The_word_1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='The_word_1', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.5332 	EXP 	Created Warning_signal_2 = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Warning_signal_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+10.5344 	EXP 	Created The_word_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='The_word_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+10.7150 	EXP 	Created The_end_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='The_end_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+10.8639 	EXP 	Instruction_image: autoDraw = True
+32.0179 	EXP 	Imported conditions_file.xlsx as conditions, 20 conditions, 3 params
+32.0187 	EXP 	Created sequence: random, trialTypes=20, nReps=1, seed=None
+32.0191 	EXP 	New trial (rep=0, index=0): {'stimulusWord': 'BOAT', 'theCondition': 'word', 'corrResp': 'left'}
+32.0314 	DATA 	Keypress: space
+32.0381 	EXP 	Instruction_image: autoDraw = False
+32.0381 	EXP 	The_word_1: text = 'BOAT'
+32.0381 	EXP 	Warning_signal_1: autoDraw = True
+33.0494 	EXP 	The_word_1: autoDraw = True
+33.0755 	EXP 	Warning_signal_1: autoDraw = False
+34.0568 	EXP 	New trial (rep=0, index=1): {'stimulusWord': 'FRIEND', 'theCondition': 'word', 'corrResp': 'left'}
+34.0767 	DATA 	Keypress: right
+34.0831 	EXP 	Warning_signal_1: autoDraw = False
+34.0831 	EXP 	The_word_1: autoDraw = False
+34.0831 	EXP 	The_word_1: text = 'FRIEND'
+34.0831 	EXP 	Warning_signal_1: autoDraw = True
+35.0718 	EXP 	The_word_1: autoDraw = True
+35.0963 	EXP 	Warning_signal_1: autoDraw = False
+35.8496 	EXP 	New trial (rep=0, index=2): {'stimulusWord': 'NURSE', 'theCondition': 'word', 'corrResp': 'left'}
+35.8599 	DATA 	Keypress: right
+35.8662 	EXP 	Warning_signal_1: autoDraw = False
+35.8662 	EXP 	The_word_1: autoDraw = False
+35.8662 	EXP 	The_word_1: text = 'NURSE'
+35.8662 	EXP 	Warning_signal_1: autoDraw = True
+36.8671 	EXP 	The_word_1: autoDraw = True
+36.8798 	EXP 	Warning_signal_1: autoDraw = False
+37.3642 	EXP 	New trial (rep=0, index=3): {'stimulusWord': 'KAFF', 'theCondition': 'nonword', 'corrResp': 'right'}
+37.3741 	DATA 	Keypress: right
+37.3810 	EXP 	Warning_signal_1: autoDraw = False
+37.3810 	EXP 	The_word_1: autoDraw = False
+37.3810 	EXP 	The_word_1: text = 'KAFF'
+37.3810 	EXP 	Warning_signal_1: autoDraw = True
+38.3710 	EXP 	The_word_1: autoDraw = True
+38.3951 	EXP 	Warning_signal_1: autoDraw = False
+38.9788 	DATA 	Keypress: left
+38.9943 	EXP 	New trial (rep=0, index=4): {'stimulusWord': 'GLIR', 'theCondition': 'nonword', 'corrResp': 'right'}
+39.0105 	EXP 	Warning_signal_1: autoDraw = False
+39.0105 	EXP 	The_word_1: autoDraw = False
+39.0105 	EXP 	The_word_1: text = 'GLIR'
+39.0105 	EXP 	Warning_signal_1: autoDraw = True
+40.0089 	EXP 	The_word_1: autoDraw = True
+40.0199 	EXP 	Warning_signal_1: autoDraw = False
+40.6270 	EXP 	New trial (rep=0, index=5): {'stimulusWord': 'NIGHT', 'theCondition': 'word', 'corrResp': 'left'}
+40.6328 	DATA 	Keypress: right
+40.6399 	EXP 	Warning_signal_1: autoDraw = False
+40.6399 	EXP 	The_word_1: autoDraw = False
+40.6399 	EXP 	The_word_1: text = 'NIGHT'
+40.6399 	EXP 	Warning_signal_1: autoDraw = True
+41.6425 	EXP 	The_word_1: autoDraw = True
+41.6518 	EXP 	Warning_signal_1: autoDraw = False
+42.3316 	EXP 	New trial (rep=0, index=6): {'stimulusWord': 'BONE', 'theCondition': 'word', 'corrResp': 'left'}
+42.3372 	DATA 	Keypress: right
+42.3448 	EXP 	Warning_signal_1: autoDraw = False
+42.3448 	EXP 	The_word_1: autoDraw = False
+42.3448 	EXP 	The_word_1: text = 'BONE'
+42.3448 	EXP 	Warning_signal_1: autoDraw = True
+43.3421 	EXP 	The_word_1: autoDraw = True
+43.3519 	EXP 	Warning_signal_1: autoDraw = False
+43.9395 	EXP 	New trial (rep=0, index=7): {'stimulusWord': 'GIRL', 'theCondition': 'word', 'corrResp': 'left'}
+43.9469 	DATA 	Keypress: right
+43.9539 	EXP 	Warning_signal_1: autoDraw = False
+43.9539 	EXP 	The_word_1: autoDraw = False
+43.9539 	EXP 	The_word_1: text = 'GIRL'
+43.9539 	EXP 	Warning_signal_1: autoDraw = True
+44.9551 	EXP 	The_word_1: autoDraw = True
+44.9652 	EXP 	Warning_signal_1: autoDraw = False
+45.4629 	EXP 	New trial (rep=0, index=8): {'stimulusWord': 'HOME', 'theCondition': 'word', 'corrResp': 'left'}
+45.4688 	DATA 	Keypress: right
+45.4755 	EXP 	Warning_signal_1: autoDraw = False
+45.4755 	EXP 	The_word_1: autoDraw = False
+45.4755 	EXP 	The_word_1: text = 'HOME'
+45.4755 	EXP 	Warning_signal_1: autoDraw = True
+46.4728 	EXP 	The_word_1: autoDraw = True
+46.4841 	EXP 	Warning_signal_1: autoDraw = False
+47.1444 	EXP 	New trial (rep=0, index=9): {'stimulusWord': 'STRI', 'theCondition': 'nonword', 'corrResp': 'right'}
+47.1489 	DATA 	Keypress: right
+47.1563 	EXP 	Warning_signal_1: autoDraw = False
+47.1563 	EXP 	The_word_1: autoDraw = False
+47.1563 	EXP 	The_word_1: text = 'STRI'
+47.1563 	EXP 	Warning_signal_1: autoDraw = True
+48.1593 	EXP 	The_word_1: autoDraw = True
+48.1686 	EXP 	Warning_signal_1: autoDraw = False
+48.8053 	EXP 	New trial (rep=0, index=10): {'stimulusWord': 'TRFIC', 'theCondition': 'nonword', 'corrResp': 'right'}
+48.8134 	DATA 	Keypress: left
+48.8205 	EXP 	Warning_signal_1: autoDraw = False
+48.8205 	EXP 	The_word_1: autoDraw = False
+48.8205 	EXP 	The_word_1: text = 'TRFIC'
+48.8205 	EXP 	Warning_signal_1: autoDraw = True
+49.8180 	EXP 	The_word_1: autoDraw = True
+49.8296 	EXP 	Warning_signal_1: autoDraw = False
+50.5223 	EXP 	New trial (rep=0, index=11): {'stimulusWord': 'DATA', 'theCondition': 'word', 'corrResp': 'left'}
+50.5275 	DATA 	Keypress: left
+50.5343 	EXP 	Warning_signal_1: autoDraw = False
+50.5343 	EXP 	The_word_1: autoDraw = False
+50.5343 	EXP 	The_word_1: text = 'DATA'
+50.5343 	EXP 	Warning_signal_1: autoDraw = True
+51.5378 	EXP 	Warning_signal_1: autoDraw = False
+51.5378 	EXP 	The_word_1: autoDraw = True
+52.1373 	DATA 	Keypress: right
+52.1476 	EXP 	New trial (rep=0, index=12): {'stimulusWord': 'PYSK', 'theCondition': 'nonword', 'corrResp': 'right'}
+52.1638 	EXP 	Warning_signal_1: autoDraw = False
+52.1638 	EXP 	The_word_1: autoDraw = False
+52.1638 	EXP 	The_word_1: text = 'PYSK'
+52.1638 	EXP 	Warning_signal_1: autoDraw = True
+53.1556 	EXP 	The_word_1: autoDraw = True
+53.1657 	EXP 	Warning_signal_1: autoDraw = False
+53.6766 	EXP 	New trial (rep=0, index=13): {'stimulusWord': 'DRIN', 'theCondition': 'nonword', 'corrResp': 'right'}
+53.6817 	DATA 	Keypress: left
+53.6912 	EXP 	Warning_signal_1: autoDraw = False
+53.6912 	EXP 	The_word_1: autoDraw = False
+53.6912 	EXP 	The_word_1: text = 'DRIN'
+53.6912 	EXP 	Warning_signal_1: autoDraw = True
+54.6846 	EXP 	The_word_1: autoDraw = True
+54.6965 	EXP 	Warning_signal_1: autoDraw = False
+55.4275 	EXP 	New trial (rep=0, index=14): {'stimulusWord': 'CAFO', 'theCondition': 'nonword', 'corrResp': 'right'}
+55.4357 	DATA 	Keypress: left
+55.4591 	EXP 	Warning_signal_1: autoDraw = False
+55.4591 	EXP 	The_word_1: autoDraw = False
+55.4591 	EXP 	The_word_1: text = 'CAFO'
+55.4591 	EXP 	Warning_signal_1: autoDraw = True
+56.4418 	EXP 	The_word_1: autoDraw = True
+56.4650 	EXP 	Warning_signal_1: autoDraw = False
+57.0265 	EXP 	New trial (rep=0, index=15): {'stimulusWord': 'PLANT', 'theCondition': 'word', 'corrResp': 'left'}
+57.0315 	DATA 	Keypress: left
+57.0382 	EXP 	Warning_signal_1: autoDraw = False
+57.0382 	EXP 	The_word_1: autoDraw = False
+57.0382 	EXP 	The_word_1: text = 'PLANT'
+57.0382 	EXP 	Warning_signal_1: autoDraw = True
+58.0352 	EXP 	The_word_1: autoDraw = True
+58.0462 	EXP 	Warning_signal_1: autoDraw = False
+58.8251 	EXP 	New trial (rep=0, index=16): {'stimulusWord': 'POKV', 'theCondition': 'nonword', 'corrResp': 'right'}
+58.8311 	DATA 	Keypress: right
+58.8377 	EXP 	Warning_signal_1: autoDraw = False
+58.8377 	EXP 	The_word_1: autoDraw = False
+58.8377 	EXP 	The_word_1: text = 'POKV'
+58.8377 	EXP 	Warning_signal_1: autoDraw = True
+59.8395 	EXP 	The_word_1: autoDraw = True
+59.8508 	EXP 	Warning_signal_1: autoDraw = False
+60.4457 	EXP 	New trial (rep=0, index=17): {'stimulusWord': 'CAFE', 'theCondition': 'word', 'corrResp': 'left'}
+60.4551 	DATA 	Keypress: left
+60.4631 	EXP 	Warning_signal_1: autoDraw = False
+60.4631 	EXP 	The_word_1: autoDraw = False
+60.4631 	EXP 	The_word_1: text = 'CAFE'
+60.4631 	EXP 	Warning_signal_1: autoDraw = True
+61.4560 	EXP 	The_word_1: autoDraw = True
+61.4673 	EXP 	Warning_signal_1: autoDraw = False
+62.1839 	EXP 	New trial (rep=0, index=18): {'stimulusWord': 'XLFE', 'theCondition': 'nonword', 'corrResp': 'right'}
+62.1927 	DATA 	Keypress: right
+62.1993 	EXP 	Warning_signal_1: autoDraw = False
+62.1993 	EXP 	The_word_1: autoDraw = False
+62.1993 	EXP 	The_word_1: text = 'XLFE'
+62.1993 	EXP 	Warning_signal_1: autoDraw = True
+63.2032 	EXP 	Warning_signal_1: autoDraw = False
+63.2032 	EXP 	The_word_1: autoDraw = True
+63.7770 	EXP 	New trial (rep=0, index=19): {'stimulusWord': 'FRIND', 'theCondition': 'nonword', 'corrResp': 'right'}
+63.7813 	DATA 	Keypress: left
+63.7910 	EXP 	Warning_signal_1: autoDraw = False
+63.7910 	EXP 	The_word_1: autoDraw = False
+63.7910 	EXP 	The_word_1: text = 'FRIND'
+63.7910 	EXP 	Warning_signal_1: autoDraw = True
+64.7918 	EXP 	The_word_1: autoDraw = True
+64.8017 	EXP 	Warning_signal_1: autoDraw = False
+65.2866 	EXP 	Imported conditions2_file.xlsx as conditions, 20 conditions, 3 params
+65.2874 	EXP 	Created sequence: random, trialTypes=20, nReps=1, seed=None
+65.2880 	EXP 	New trial (rep=0, index=0): {'stimulusWord_2': 'SHOW STRI ', 'theCondition_2': 'nonword', 'corrResp_2': 'right'}
+65.2950 	DATA 	Keypress: left
+65.3015 	EXP 	Warning_signal_1: autoDraw = False
+65.3015 	EXP 	The_word_1: autoDraw = False
+65.3015 	EXP 	The_word_2: text = 'SHOW STRI '
+65.3015 	EXP 	Warning_signal_2: autoDraw = True
+66.3086 	EXP 	Warning_signal_2: autoDraw = False
+66.3086 	EXP 	The_word_2: autoDraw = True
+67.6131 	DATA 	Keypress: left
+67.6227 	EXP 	New trial (rep=0, index=1): {'stimulusWord_2': 'GIRL CURL', 'theCondition_2': 'word', 'corrResp_2': 'left'}
+67.6360 	EXP 	Warning_signal_2: autoDraw = False
+67.6360 	EXP 	The_word_2: autoDraw = False
+67.6360 	EXP 	The_word_2: text = 'GIRL CURL'
+67.6360 	EXP 	Warning_signal_2: autoDraw = True
+68.6421 	EXP 	The_word_2: autoDraw = True
+68.6590 	EXP 	Warning_signal_2: autoDraw = False
+69.2840 	EXP 	New trial (rep=0, index=2): {'stimulusWord_2': 'PYSK STAR', 'theCondition_2': 'nonword', 'corrResp_2': 'right'}
+69.2905 	DATA 	Keypress: left
+69.2966 	EXP 	Warning_signal_2: autoDraw = False
+69.2966 	EXP 	The_word_2: autoDraw = False
+69.2966 	EXP 	The_word_2: text = 'PYSK STAR'
+69.2966 	EXP 	Warning_signal_2: autoDraw = True
+70.2921 	EXP 	The_word_2: autoDraw = True
+70.3022 	EXP 	Warning_signal_2: autoDraw = False
+70.9622 	EXP 	New trial (rep=0, index=3): {'stimulusWord_2': 'DANCE CAFO', 'theCondition_2': 'nonword', 'corrResp_2': 'right'}
+70.9722 	DATA 	Keypress: left
+70.9789 	EXP 	Warning_signal_2: autoDraw = False
+70.9789 	EXP 	The_word_2: autoDraw = False
+70.9789 	EXP 	The_word_2: text = 'DANCE CAFO'
+70.9789 	EXP 	Warning_signal_2: autoDraw = True
+71.9734 	EXP 	The_word_2: autoDraw = True
+71.9852 	EXP 	Warning_signal_2: autoDraw = False
+73.1849 	EXP 	New trial (rep=0, index=4): {'stimulusWord_2': 'HOME DECOR', 'theCondition_2': 'word', 'corrResp_2': 'left'}
+73.1923 	DATA 	Keypress: left
+73.1987 	EXP 	Warning_signal_2: autoDraw = False
+73.1987 	EXP 	The_word_2: autoDraw = False
+73.1987 	EXP 	The_word_2: text = 'HOME DECOR'
+73.1987 	EXP 	Warning_signal_2: autoDraw = True
+74.1946 	EXP 	The_word_2: autoDraw = True
+74.2091 	EXP 	Warning_signal_2: autoDraw = False
+74.7769 	EXP 	New trial (rep=0, index=5): {'stimulusWord_2': 'POKV GAME', 'theCondition_2': 'nonword', 'corrResp_2': 'right'}
+74.7832 	DATA 	Keypress: left
+74.7904 	EXP 	Warning_signal_2: autoDraw = False
+74.7904 	EXP 	The_word_2: autoDraw = False
+74.7904 	EXP 	The_word_2: text = 'POKV GAME'
+74.7904 	EXP 	Warning_signal_2: autoDraw = True
+75.7847 	EXP 	The_word_2: autoDraw = True
+75.7966 	EXP 	Warning_signal_2: autoDraw = False
+76.8005 	EXP 	New trial (rep=0, index=6): {'stimulusWord_2': 'BOAT SEAT', 'theCondition_2': 'word', 'corrResp_2': 'left'}
+76.8083 	DATA 	Keypress: left
+76.8150 	EXP 	Warning_signal_2: autoDraw = False
+76.8150 	EXP 	The_word_2: autoDraw = False
+76.8150 	EXP 	The_word_2: text = 'BOAT SEAT'
+76.8150 	EXP 	Warning_signal_2: autoDraw = True
+77.8133 	EXP 	The_word_2: autoDraw = True
+77.8268 	EXP 	Warning_signal_2: autoDraw = False
+79.2836 	DATA 	Keypress: right
+79.2926 	EXP 	New trial (rep=0, index=7): {'stimulusWord_2': 'BONE CELL', 'theCondition_2': 'word', 'corrResp_2': 'left'}
+79.3071 	EXP 	Warning_signal_2: autoDraw = False
+79.3071 	EXP 	The_word_2: autoDraw = False
+79.3071 	EXP 	The_word_2: text = 'BONE CELL'
+79.3071 	EXP 	Warning_signal_2: autoDraw = True
+80.3083 	EXP 	The_word_2: autoDraw = True
+80.3196 	EXP 	Warning_signal_2: autoDraw = False
+81.8541 	EXP 	New trial (rep=0, index=8): {'stimulusWord_2': 'KAFF DRINK', 'theCondition_2': 'nonword', 'corrResp_2': 'right'}
+81.8605 	DATA 	Keypress: right
+81.8675 	EXP 	Warning_signal_2: autoDraw = False
+81.8675 	EXP 	The_word_2: autoDraw = False
+81.8675 	EXP 	The_word_2: text = 'KAFF DRINK'
+81.8675 	EXP 	Warning_signal_2: autoDraw = True
+82.8637 	EXP 	The_word_2: autoDraw = True
+82.8772 	EXP 	Warning_signal_2: autoDraw = False
+83.5266 	EXP 	New trial (rep=0, index=9): {'stimulusWord_2': 'MOVIE TETRE', 'theCondition_2': 'nonword', 'corrResp_2': 'right'}
+83.5364 	DATA 	Keypress: left
+83.5448 	EXP 	Warning_signal_2: autoDraw = False
+83.5448 	EXP 	The_word_2: autoDraw = False
+83.5448 	EXP 	The_word_2: text = 'MOVIE TETRE'
+83.5448 	EXP 	Warning_signal_2: autoDraw = True
+84.5411 	EXP 	The_word_2: autoDraw = True
+84.5526 	EXP 	Warning_signal_2: autoDraw = False
+85.8423 	DATA 	Keypress: right
+85.8523 	EXP 	New trial (rep=0, index=10): {'stimulusWord_2': 'CAFE SHOP', 'theCondition_2': 'word', 'corrResp_2': 'left'}
+85.8701 	EXP 	Warning_signal_2: autoDraw = False
+85.8701 	EXP 	The_word_2: autoDraw = False
+85.8701 	EXP 	The_word_2: text = 'CAFE SHOP'
+85.8701 	EXP 	Warning_signal_2: autoDraw = True
+86.8677 	EXP 	The_word_2: autoDraw = True
+86.8792 	EXP 	Warning_signal_2: autoDraw = False
+88.2978 	EXP 	New trial (rep=0, index=11): {'stimulusWord_2': 'TRFI OCEAN', 'theCondition_2': 'nonword', 'corrResp_2': 'right'}
+88.3063 	DATA 	Keypress: left
+88.3126 	EXP 	Warning_signal_2: autoDraw = False
+88.3126 	EXP 	The_word_2: autoDraw = False
+88.3126 	EXP 	The_word_2: text = 'TRFI OCEAN'
+88.3126 	EXP 	Warning_signal_2: autoDraw = True
+89.3128 	EXP 	The_word_2: autoDraw = True
+89.3252 	EXP 	Warning_signal_2: autoDraw = False
+90.3086 	DATA 	Keypress: left
+90.3173 	EXP 	New trial (rep=0, index=12): {'stimulusWord_2': 'HOLE BALL', 'theCondition_2': 'word', 'corrResp_2': 'left'}
+90.3312 	EXP 	Warning_signal_2: autoDraw = False
+90.3312 	EXP 	The_word_2: autoDraw = False
+90.3312 	EXP 	The_word_2: text = 'HOLE BALL'
+90.3312 	EXP 	Warning_signal_2: autoDraw = True
+91.3335 	EXP 	The_word_2: autoDraw = True
+91.3454 	EXP 	Warning_signal_2: autoDraw = False
+91.9632 	DATA 	Keypress: left
+91.9721 	EXP 	New trial (rep=0, index=13): {'stimulusWord_2': 'DRIN GOLF', 'theCondition_2': 'nonword', 'corrResp_2': 'right'}
+91.9861 	EXP 	Warning_signal_2: autoDraw = False
+91.9861 	EXP 	The_word_2: autoDraw = False
+91.9861 	EXP 	The_word_2: text = 'DRIN GOLF'
+91.9861 	EXP 	Warning_signal_2: autoDraw = True
+92.9826 	EXP 	The_word_2: autoDraw = True
+92.9953 	EXP 	Warning_signal_2: autoDraw = False
+93.7938 	EXP 	New trial (rep=0, index=14): {'stimulusWord_2': 'SEAT FOOD', 'theCondition_2': 'word', 'corrResp_2': 'left'}
+93.7984 	DATA 	Keypress: left
+93.8076 	EXP 	Warning_signal_2: autoDraw = False
+93.8076 	EXP 	The_word_2: autoDraw = False
+93.8076 	EXP 	The_word_2: text = 'SEAT FOOD'
+93.8076 	EXP 	Warning_signal_2: autoDraw = True
+94.8250 	EXP 	Warning_signal_2: autoDraw = False
+94.8250 	EXP 	The_word_2: autoDraw = True
+95.5765 	EXP 	New trial (rep=0, index=15): {'stimulusWord_2': 'PLANT TREE', 'theCondition_2': 'word', 'corrResp_2': 'left'}
+95.5845 	DATA 	Keypress: left
+95.5919 	EXP 	Warning_signal_2: autoDraw = False
+95.5919 	EXP 	The_word_2: autoDraw = False
+95.5919 	EXP 	The_word_2: text = 'PLANT TREE'
+95.5919 	EXP 	Warning_signal_2: autoDraw = True
+96.5926 	EXP 	The_word_2: autoDraw = True
+96.6048 	EXP 	Warning_signal_2: autoDraw = False
+97.3764 	EXP 	New trial (rep=0, index=16): {'stimulusWord_2': 'DUST GLIR', 'theCondition_2': 'nonword', 'corrResp_2': 'right'}
+97.3833 	DATA 	Keypress: right
+97.3903 	EXP 	Warning_signal_2: autoDraw = False
+97.3903 	EXP 	The_word_2: autoDraw = False
+97.3903 	EXP 	The_word_2: text = 'DUST GLIR'
+97.3903 	EXP 	Warning_signal_2: autoDraw = True
+98.3899 	EXP 	The_word_2: autoDraw = True
+98.4015 	EXP 	Warning_signal_2: autoDraw = False
+99.6870 	EXP 	New trial (rep=0, index=17): {'stimulusWord_2': 'DATA TEXT', 'theCondition_2': 'word', 'corrResp_2': 'left'}
+99.6962 	DATA 	Keypress: right
+99.7027 	EXP 	Warning_signal_2: autoDraw = False
+99.7027 	EXP 	The_word_2: autoDraw = False
+99.7027 	EXP 	The_word_2: text = 'DATA TEXT'
+99.7027 	EXP 	Warning_signal_2: autoDraw = True
+100.7055 	EXP 	The_word_2: autoDraw = True
+100.7156 	EXP 	Warning_signal_2: autoDraw = False
+101.7997 	EXP 	New trial (rep=0, index=18): {'stimulusWord_2': 'NIGHT WORF', 'theCondition_2': 'nonword', 'corrResp_2': 'right'}
+101.8074 	DATA 	Keypress: right
+101.8139 	EXP 	Warning_signal_2: autoDraw = False
+101.8139 	EXP 	The_word_2: autoDraw = False
+101.8139 	EXP 	The_word_2: text = 'NIGHT WORF'
+101.8139 	EXP 	Warning_signal_2: autoDraw = True
+102.8137 	EXP 	The_word_2: autoDraw = True
+102.8262 	EXP 	Warning_signal_2: autoDraw = False
+104.4975 	EXP 	New trial (rep=0, index=19): {'stimulusWord_2': 'AREA CANDLE', 'theCondition_2': 'word', 'corrResp_2': 'left'}
+104.5031 	DATA 	Keypress: left
+104.5107 	EXP 	Warning_signal_2: autoDraw = False
+104.5107 	EXP 	The_word_2: autoDraw = False
+104.5107 	EXP 	The_word_2: text = 'AREA CANDLE'
+104.5107 	EXP 	Warning_signal_2: autoDraw = True
+105.5100 	EXP 	The_word_2: autoDraw = True
+105.5251 	EXP 	Warning_signal_2: autoDraw = False
+106.5809 	DATA 	Keypress: left
+106.5877 	EXP 	Warning_signal_2: autoDraw = False
+106.5877 	EXP 	The_word_2: autoDraw = False
+106.5877 	EXP 	The_end_text: autoDraw = True
+110.1304 	DATA 	Keypress: space
+110.1451 	EXP 	The_end_text: autoDraw = False
+110.7241 	EXP 	window1: mouseVisible = True
